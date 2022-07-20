@@ -30,7 +30,7 @@ class CameraData extends Component {
       const { camera } = this.state;
         return (
             <div className='container'>
-            <h3 className="custom-title"> Activity Log </h3>
+            <h3 className="custom-title"> Camera </h3>
             <br />
             <table className="table table-hover responsive">
                 <thead> 
