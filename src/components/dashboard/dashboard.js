@@ -22,8 +22,11 @@ class Dashboard extends Component {
         data : formData
     })
     .then((res) => {
-      window.location.reload();
+        // window.location.reload();
         console.log(res);
+        this.setState({
+          response : res.data.msg
+        })
     })
     .catch((err) => {
         console.log(err);
@@ -42,7 +45,7 @@ class Dashboard extends Component {
     await instance({
         url : 'fleet-in-out/',
         method : 'POST',
-        data : formData
+        data : formData,
     })
     .then((res) => {
       window.location.reload();
