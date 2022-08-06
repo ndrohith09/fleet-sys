@@ -23,22 +23,6 @@ class Nav extends Component {
       sidebarBtn.classList.replace("bx-menu-alt-right", "bx-menu");
   };
 
-//   async componentDidMount(){ 
-//     try {
-//       await instance({
-//         url : PERSONAL_DETAILS_URL,
-//         method : "GET",
-//       })
-//       .then((res) => {  
-//         this.setState({
-//           userdata : res.data["user"],
-//         });  
-//       })
-//     }
-//     catch (e) {
-//       console.error(e);
-//     }
-//   }
 
   logoutAdmin() {
     try{
@@ -65,8 +49,8 @@ class Nav extends Component {
 
           <div class="profile-details" style={{"alignItems" : "end"}}>                              
           <h3 className="appointment-time">
-          <img src={img} alt="" /> &nbsp;Caterpillar Admin</h3>
- 
+          <img src={img}
+           alt="" /> &nbsp;Fleet Admin</h3>
  
           </div>
         </nav>

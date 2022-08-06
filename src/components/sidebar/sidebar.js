@@ -40,7 +40,9 @@ class Sidebar extends Component {
       <>
         <div class="sidebar">
           <div class="logo-details">
-          <img class="logo_name" src="https://www.logolynx.com/images/logolynx/46/46a65bf6e8c09c68afb4e2deb5fd3e37.png" style={{"width": "95%"}} />
+          <img class="logo_name" 
+          src="https://firebasestorage.googleapis.com/v0/b/react-firechat-ae4bf.appspot.com/o/fleet%20fox.png?alt=media&token=d95c7a64-a29c-4c57-98b5-9a6bd5a7badd"
+          style={{"width": "95%"}} />
           {/* <i class='bx bxl-sass' ></i>
             <span class="logo_name">SRMC</span> */}
           </div>
